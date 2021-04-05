@@ -143,17 +143,11 @@ ul{
     border:2px solid var(--borderColor)
 }
 
-#setting-note{
-    font-size:12px;
-    font-style: italic;
-    text-align: center;
-} */
-
 .right-column{
     grid-area:right-column;
     display: grid;
     align-content: center;
-    padding-top:90px;
+    padding-top:50px;
     padding-bottom:90px;
 }
 
