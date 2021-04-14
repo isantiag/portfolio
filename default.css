@@ -136,15 +136,25 @@ ul{
 
 .left-column{
     grid-area:left-column;
+    display: grid;
     padding: 50px 0 50px 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "profile_pic"
+        "icons";
 }
 
 #profile_pic{
-    display: block;
+    grid-area:profile_pic;
     margin: 0 auto;
     width: 200px;
     object-fit: cover;
     border:2px solid var(--borderColor)
+}
+
+.icons{
+    grid-area:icons;
+    margin: 15px auto;
 }
 
 .right-column{
